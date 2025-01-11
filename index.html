@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Animada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="img">
+    <img src="Gato.png" width="130%">
+    </div>
+    <div class="card-container">
+        <div class="escrita">Sabia?</div>
+        <div class="card" id="card">
+            <div class="card-front">
+                <p>Clique para abrir</p>
+            </div>
+            <div class="card-back">
+                <p>hmm, não sabia?<br>Que você é o amor da minha vida inteirinha?? 💖</p>
+                <button class="close-button" onclick="closeCard(event)">Fechar</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="flowers" id="flowers"></div>
+    <script src="script.js"></script>
+</body>
+</html>
